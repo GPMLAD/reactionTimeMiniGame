@@ -88,7 +88,7 @@ const animate = () => {
       break;
     case "correct":
       deltaTime = (reaction.lastTime - reaction.time) / 1000;
-      reaction.writeOnScreen(`Parabéns, seu tempo foi de ${deltaTime}ms`);
+      reaction.writeOnScreen(`Parabéns, seu tempo foi de ${deltaTime}s`);
       break;
     default:
       break;
